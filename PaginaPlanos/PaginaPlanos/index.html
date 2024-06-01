@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/planos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/nav.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Nossos planos</title>
+</head>
+
+<body>
+
+
+    <header class="desktop-header">
+        <nav class="navbar navbar-expand-lg navbar-light cabecalho">
+            <div id="logo-nav">
+                <img src="assets/img/livros.png" alt="Logo Praiagens">
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul>
+                    <li><a class="nav_item" href="#">AudioBook</a></li>
+                    <li><a class="nav_item" href="#">Funcionalidades</a></li>
+                    <li><a class="nav_item" class="atual" href="#" id="atual">Planos</a></li>
+                </ul>
+                <div class="btns">
+                    <button class="btn_assinar login">
+                        Login
+                    </button>
+                    <button class="btn_assinar">
+                        Cadastro
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <header class="mobile-header bg-light">
+        <nav class="navbar navbar-light cabecalho">
+            <div id="logo-nav">
+                <img src="assets/img/livros.png" alt="">
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavMobile"
+                aria-controls="navbarNavMobile" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars" style="color: #ffffff; font-size: 2.3rem;"></i> </button>
+            <div class="collapse navbar-collapse" id="navbarNavMobile">
+                <button class="close-menu" type="button" data-toggle="collapse" data-target="#navbarNavMobile"
+                    aria-controls="navbarNavMobile" aria-expanded="true" aria-label="Toggle navigation">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="btns btns_mobile">
+                    <button class="btn_assinar login">
+                        Login
+                    </button>
+                    <button class="btn_assinar">
+                        Cadastro
+                    </button>
+                </div>
+                <ul class="navbar-nav nav_mobile">
+                    <li><a class="nav_item" href="#">AudioBook</a></li>
+                    <li><a class="nav_item" href="#">Funcionalidades</a></li>
+                    <li><a class="nav_item" class="atual" href="#" id="atual">Planos</a></li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+
+    <!-- <header class="cabecalho">
+        <div class="logo">
+            <h1>logo</h1>
+        </div>
+        <nav class="nav_link">
+            <ul>
+                <li><a href="#">AudioBook</a></li>
+                <li><a href="#">Funcionalidades</a></li>
+                <li><a class="atual" href="#" id="atual">Planos</a></li>
+
+            </ul>
+        </nav>
+
+        <div class="btns">
+            <button class="btn login">
+                Login
+            </button>
+
+            <button class="btn">
+                Cadastro
+            </button>
+        </div>
+    </header> -->
+    <section class="hero">
+        <h1 class="title">Qual o plano perfeito pra você?</h1>
+    </section>
+
+
+    <main class="conteudo">
+        <section class="planos">
+            <div class="text">
+                <h2 class="title">Seu bolso merece <strong>conforto</strong>, sua vida merece
+                    <strong>praticidade</strong>.
+                </h2>
+                <p class="paragrafo">Escolha um plano e entre numa experiência imersiva de livros, sem anúncios e de
+                    forma ilimitada no
+                    seu
+                    celular e em outros dispositivos. Vários métodos de pagamento. Cancele quando quiser.</p>
+            </div>
+
+            <div class="container_card">
+                <div class="card_plano">
+                    <div class="plano_info">
+                        <h2>Individual</h2>
+                        <h4>Gratis durante 1 mês</h4>
+                        <p class="info_beneficio">Depois, apenas 24,90 por mês</p>
+                    </div>
+
+                    <div class="beneficios">
+                        <ul>
+                            <li><i class="fa-solid fa-check" style="color: #00b344;"></i>
+                                <p>Worem ipsum dolor sit amet.</p>
+                            </li>
+
+                            <li><i class="fa-solid fa-check" style="color: #00b344;"></i>
+                                <p>Worem ipsum dolor sit amet.</p>
+                            </li>
+
+                            <li><i class="fa-solid fa-check" style="color: #00b344;"></i>
+                                <p>Worem ipsum dolor sit amet.</p>
+                            </li>
+                        </ul>
+
+                        <button class="btn_assinar">Assinar</button>
+                    </div>
+                </div>
+
+                <div class="card_plano card_selecionado">
+                    <div class="plano_info">
+                        <h2>Família</h2>
+                        <p><span class="cifrao">R$</span> <strong class="preco">99,90</strong> <span
+                                class="cifrao">/mês</span></p>
+                        <p class="info_beneficio">Economize até 100 reais</p>
+                    </div>
+
+                    <div class="beneficios">
+                        <ul>
+                            <li><i class="fa-solid fa-check" style="color: #00b344;"></i>
+                                <p>Worem ipsum dolor sit amet.</p>
+                            </li>
+
+                            <li><i class="fa-solid fa-check" style="color: #00b344;"></i>
+                                <p>Worem ipsum dolor sit amet.</p>
+                            </li>
+
+                            <li><i class="fa-solid fa-check" style="color: #00b344;"></i>
+                                <p>Worem ipsum dolor sit amet.</p>
+                            </li>
+                        </ul>
+
+                        <button class="btn_assinar">Assinar</button>
+                    </div>
+                </div>
+                <div class="card_plano">
+                    <div class="plano_info">
+                        <h2>Duo</h2>
+                        <h4>Gratis durante 1 mês</h4>
+                        <p class="info_beneficio">Depois, apenas 24,90 por mês</p>
+                    </div>
+
+                    <div class="beneficios">
+                        <ul>
+                            <li><i class="fa-solid fa-check" style="color: #00b344;"></i>
+                                <p>Worem ipsum dolor sit amet.</p>
+                            </li>
+
+                            <li><i class="fa-solid fa-check" style="color: #00b344;"></i>
+                                <p>Worem ipsum dolor sit amet.</p>
+                            </li>
+
+                            <li><i class="fa-solid fa-check" style="color: #00b344;"></i>
+                                <p>Worem ipsum dolor sit amet.</p>
+                            </li>
+                        </ul>
+
+                        <button class="btn_assinar">Assinar</button>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+        <section class="perguntas">
+            <h2 class="title">Perguntas frequentes</h1>
+                <div class="container_perguntas">
+                    <div class="pergunta">
+                        <div class="ask">
+                            <div class="resposta_item">
+                                <p class="pergunta_item">Dorem ipsum dolor sit amet, consectetur adipiscing elit?</p>
+                                <i class="fa-solid fa-caret-down arrow" style="color: #f05829;" id="arrow"></i>
+                                <div class="arrow_cima">
+                                    <i class="fa-solid fa-sort-up arrow_up" style="color: #f05829;"></i>
+                                </div>
+                            </div>
+                            <div class="resposta">
+                                <div class="resposta_item">
+                                    <p class="respost">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque
+                                        sapiente aut quidem veritatis nesciunt nostrum sequi sint sunt repellat
+                                        recusandae quis molestias voluptates doloribus incidunt animi libero aliquid,
+                                        cupiditate corrupti!</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="pergunta">
+                        <div class="ask">
+                            <div class="resposta_item">
+                                <p class="pergunta_item">Dorem ipsum dolor sit amet, consectetur adipiscing elit?</p>
+                                <i class="fa-solid fa-caret-down arrow" style="color: #f05829;" id="arrow"></i>
+                                <div class="arrow_cima">
+                                    <i class="fa-solid fa-sort-up arrow_up" style="color: #f05829;"></i>
+                                </div>
+                            </div>
+                            <div class="resposta">
+                                <div class="resposta_item">
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque sapiente aut
+                                        quidem veritatis nesciunt nostrum sequi sint sunt repellat recusandae quis
+                                        molestias voluptates doloribus incidunt animi libero aliquid, cupiditate
+                                        corrupti!</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="pergunta">
+                        <div class="ask">
+                            <div class="resposta_item">
+                                <p class="pergunta_item">Dorem ipsum dolor sit amet, consectetur adipiscing elit?</p>
+                                <i class="fa-solid fa-caret-down arrow" style="color: #f05829;" id="arrow"></i>
+                                <div class="arrow_cima">
+                                    <i class="fa-solid fa-sort-up arrow_up" style="color: #f05829;"></i>
+                                </div>
+                            </div>
+                            <div class="resposta">
+                                <div class="resposta_item">
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque sapiente aut
+                                        quidem veritatis nesciunt nostrum sequi sint sunt repellat recusandae quis
+                                        molestias voluptates doloribus incidunt animi libero aliquid, cupiditate
+                                        corrupti!</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+        <div class="content_up">
+            <h3 class="title">E aí, pronto(a) pra começar?</h3>
+            <button class="btn">
+                Vamos nessa
+                <i class="fa-solid fa-circle-chevron-right" style="color: #ffffff;"></i>
+            </button>
+        </div>
+
+        <div class="content_down">
+            <div class="logo_footer">
+                <img src="assets/img/footerLogo.png" alt="">
+            </div>
+
+            <div class="footer_item">
+                <h3 class="footer_title">Navegação</h3>
+                <ul class="footer_nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sobre Nós </a></li>
+                    <li><a href="#">Fale Conosco</a></li>
+                    <li><a href="#">Planos</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_item">
+                <h3 class="footer_title">Nos acompanhe em nossas redes de apoio!</h3>
+                <p class="item_text">Fique por dentro de tudo da xxxxx, siga-nos nas redes sociais e conheça novas
+                    promoções.</p>
+            </div>
+
+            <div class="social">
+                <div class="social_icon">
+                    <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                </div>
+
+                <div class="social_icon">
+                    <i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i>
+                </div>
+
+                <div class="social_icon">
+                    <i class="fa-brands fa-tiktok" style="color: #ffffff;"></i>
+                </div>
+
+                <div class="social_icon">
+                    <i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="direitos">
+            <p class="direitos_text">xxxxx Direitos reservados.</p>
+        </div>
+    </footer>
+    <script src="/assets/js/pergunta.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

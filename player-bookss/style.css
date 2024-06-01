@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, p {
+    font-family: 'Poppins', sans-serif;
+}
+.header-play-books {
+    background-color: #22272E;
+    color: white;
+    padding: 2.2rem 0px;
+    text-align: center;
+}
+.header-play-books h1 {
+    font-weight: 100;
+}
+.header-play-books h3 {
+    margin-top: 0.6rem;
+}
+.container-book {
+    background-color: #CBA99F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0px;
+}
+.container-book img {
+    width: 250px;
+}
+.container-player  {
+    background-color: #22272E;
+    padding: 2rem 0px;
+    text-align: center;
+    color: white;
+}
+.container-player h4 {
+    font-weight: 100;
+}
+.player-progress{
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 2rem auto;
+    height: 6px;
+    width: 40%;
+}
+.player-progress span {
+    font-family: 'Poppins', sans-serif;
+}
+.progress{
+    background-color: #F05829;
+    border-radius: 5px;
+    height: 100%;
+    width: 0%;
+    transition: width 0.1s linear;
+}
+.music-duration{
+    position: relative;
+    top: -35px;
+    font-size: 0.9rem;
+    font-weight: 200;
+    display: flex;
+    justify-content: space-between;
+}
+.player-controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+}
+.fa-solid{
+    font-size: 45px;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+}
+.player-controls img {
+    width: 40px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1023px) {
+    .player-progress{
+        width: 55%;
+    }
+}
+@media screen and (max-width:715px) {
+    .player-progress{
+        width: 75%;
+    }
+}
+@media screen and (max-width:519px) {
+    .player-progress{
+        width: 80%;
+    }
+    .fa-solid{
+        font-size: 35px;
+    }
+    .player-controls img {
+        width: 30px;
+    }
+}
